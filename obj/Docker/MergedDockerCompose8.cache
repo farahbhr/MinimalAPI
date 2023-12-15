@@ -1,0 +1,159 @@
+name: dockercompose4256894726922691393
+services:
+  firstminimalapi:
+    build:
+      context: D:\minimal\FirstMinimalAPI
+      dockerfile: FirstMinimalAPI/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: FirstMinimalAPI
+      target: base
+    container_name: FirstMinimalAPI_1
+    entrypoint:
+      - tail
+      - -f
+      - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+    image: farahbhr/firstminimalapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net7.0/FirstMinimalAPI.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+      - mode: ingress
+        target: 80
+        published: "80"
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        published: "443"
+        protocol: tcp
+    tty: true
+    volumes:
+      - type: bind
+        source: D:\minimal\FirstMinimalAPI\FirstMinimalAPI
+        target: /app
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\f.rhouma\vsdbg\vs2017u5
+        target: /remote_debugger
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\f.rhouma\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\f.rhouma\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\f.rhouma\.nuget\packages\
+        target: /root/.nuget/packages
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: D:\minimal\FirstMinimalAPI
+        target: /src
+        bind:
+          create_host_path: true
+  secondminimalapi:
+    build:
+      context: D:\minimal\FirstMinimalAPI
+      dockerfile: SecondMinimalAPI/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: SecondMinimalAPI
+      target: base
+    container_name: SecondMinimalAPI
+    entrypoint:
+      - tail
+      - -f
+      - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:4443;http://+:8080
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+    image: farahbhr/secondminimalapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net7.0/SecondMinimalAPI.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "8080"
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        published: "4443"
+        protocol: tcp
+      - mode: ingress
+        target: 4443
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+    tty: true
+    volumes:
+      - type: bind
+        source: D:\minimal\FirstMinimalAPI\SecondMinimalAPI
+        target: /app
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\f.rhouma\vsdbg\vs2017u5
+        target: /remote_debugger
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\f.rhouma\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\f.rhouma\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\f.rhouma\.nuget\packages\
+        target: /root/.nuget/packages
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: D:\minimal\FirstMinimalAPI
+        target: /src
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose4256894726922691393_default

@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  firstminimalapi:
+    image: farahbhr/firstminimalapi:1.0
+    build:
+      context: .
+      dockerfile: FirstMinimalAPI/Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+  secondminimalapi:
+    image: farahbhr/secondminimalapi:1.0
+    build:
+      context: .
+      dockerfile: SecondMinimalAPI/Dockerfile
+    ports:
+      - "8080:80"
+      - "4443:443"

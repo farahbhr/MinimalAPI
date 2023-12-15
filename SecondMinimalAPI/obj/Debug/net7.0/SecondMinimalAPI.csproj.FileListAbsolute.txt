@@ -31,3 +31,5 @@ D:\minimal\FirstMinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\refint\SecondMinima
 D:\minimal\FirstMinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.pdb
 D:\minimal\FirstMinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.genruntimeconfig.cache
 D:\minimal\FirstMinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\ref\SecondMinimalAPI.dll
+D:\minimal\FirstMinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\Serilog.dll
+D:\minimal\FirstMinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\Serilog.Sinks.File.dll

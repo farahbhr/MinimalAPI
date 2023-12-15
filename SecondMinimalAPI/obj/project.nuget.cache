@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2AKoL4STSHtLgyKrCZzc9GvkFjQAlRm4lZu13TwnIBxgmtdpqvTmvS5kymoxifMpxlGSFw/dlofB3fG3bKAOYg==",
+  "dgSpecHash": "MW/vMdFxKAGyZ+9nmD5awbTNkQHzzGGE09j5EgCEcFMtMyamebvx4vHeTlAxxQrQ4GX/+JafNfw6x8XMP6LfIA==",
   "success": true,
   "projectFilePath": "D:\\minimal\\FirstMinimalAPI\\SecondMinimalAPI\\SecondMinimalAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\f.rhouma\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\f.rhouma\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\f.rhouma\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
+    "C:\\Users\\f.rhouma\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\f.rhouma\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\f.rhouma\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\f.rhouma\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\f.rhouma\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
