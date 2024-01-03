@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MW/vMdFxKAGyZ+9nmD5awbTNkQHzzGGE09j5EgCEcFMtMyamebvx4vHeTlAxxQrQ4GX/+JafNfw6x8XMP6LfIA==",
+  "dgSpecHash": "zHv6LCdFOc4ENVIn1IdQLWHKjSxBq/DvqOuINLZsKtr/StmOexMm7uVaCYa/qWIbi6nKHoVLv9kbASBi+2PfkQ==",
   "success": true,
-  "projectFilePath": "D:\\minimal\\FirstMinimalAPI\\SecondMinimalAPI\\SecondMinimalAPI.csproj",
+  "projectFilePath": "C:\\Users\\f.rhouma\\Desktop\\Git MinimalAPI\\MinimalAPI\\SecondMinimalAPI\\SecondMinimalAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\f.rhouma\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\f.rhouma\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

@@ -635,11 +635,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\minimal\\FirstMinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj",
+      "projectUniqueName": "C:\\Users\\f.rhouma\\Desktop\\Git MinimalAPI\\MinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj",
       "projectName": "FirstMinimalAPI",
-      "projectPath": "D:\\minimal\\FirstMinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj",
+      "projectPath": "C:\\Users\\f.rhouma\\Desktop\\Git MinimalAPI\\MinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj",
       "packagesPath": "C:\\Users\\f.rhouma\\.nuget\\packages\\",
-      "outputPath": "D:\\minimal\\FirstMinimalAPI\\FirstMinimalAPI\\obj\\",
+      "outputPath": "C:\\Users\\f.rhouma\\Desktop\\Git MinimalAPI\\MinimalAPI\\FirstMinimalAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\f.rhouma\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -33,3 +33,38 @@ D:\minimal\FirstMinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.ge
 D:\minimal\FirstMinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\ref\SecondMinimalAPI.dll
 D:\minimal\FirstMinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\Serilog.dll
 D:\minimal\FirstMinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\appsettings.json
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\SecondMinimalAPI.exe
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\SecondMinimalAPI.deps.json
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\SecondMinimalAPI.runtimeconfig.json
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\SecondMinimalAPI.dll
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\SecondMinimalAPI.pdb
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\Serilog.dll
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.csproj.AssemblyReference.cache
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.AssemblyInfoInputs.cache
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.AssemblyInfo.cs
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.csproj.CoreCompileInputs.cache
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\staticwebassets\msbuild.SecondMinimalAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.SecondMinimalAPI.props
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SecondMinimalAPI.props
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SecondMinimalAPI.props
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\scopedcss\bundle\SecondMinimalAPI.styles.css
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.csproj.CopyComplete
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.dll
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\refint\SecondMinimalAPI.dll
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.pdb
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\SecondMinimalAPI.genruntimeconfig.cache
+C:\Users\f.rhouma\Desktop\Git MinimalAPI\MinimalAPI\SecondMinimalAPI\obj\Debug\net7.0\ref\SecondMinimalAPI.dll
