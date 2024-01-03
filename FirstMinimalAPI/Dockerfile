@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["FirstMinimalAPI/FirstMinimalAPI.csproj", "FirstMinimalAPI/"]
+COPY ["./FirstMinimalAPI.csproj", "FirstMinimalAPI/"]
 RUN dotnet restore "FirstMinimalAPI/FirstMinimalAPI.csproj"
-COPY . .
 WORKDIR "/src/FirstMinimalAPI"
+COPY . .
 RUN dotnet build "FirstMinimalAPI.csproj" -c Release -o /app/build
 
 FROM build AS publish
