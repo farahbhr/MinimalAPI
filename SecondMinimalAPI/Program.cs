@@ -32,7 +32,7 @@ var summaries = new[]
 app.MapGet("/weatherforecast", () =>
 {
     var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
+        new Weather
         (
             DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
             Random.Shared.Next(-20, 55),
@@ -40,17 +40,17 @@ app.MapGet("/weatherforecast", () =>
         ))
         .ToArray();
 
-    Log.Information("WeatherForecasts => {@forecast}", forecast);
+    Log.Information("Weathers => {@forecast}", forecast);
 
 
     return forecast;
 })
-.WithName("GetWeatherForecast")
+.WithName("GetWeather")
 .WithOpenApi();
 
 app.Run();
 
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+internal record Weather(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 }

@@ -11,10 +11,10 @@ COPY ["FirstMinimalAPI/FirstMinimalAPI.csproj", "FirstMinimalAPI/"]
 RUN dotnet restore "FirstMinimalAPI/FirstMinimalAPI.csproj"
 WORKDIR "/src/FirstMinimalAPI"
 COPY . .
-RUN dotnet build "FirstMinimalAPI.csproj" -c Release -o /app/build
+RUN dotnet build "FirstMinimalAPI/FirstMinimalAPI.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "FirstMinimalAPI.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "FirstMinimalAPI/FirstMinimalAPI.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
