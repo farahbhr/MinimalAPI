@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["./FirstMinimalAPI.csproj", "FirstMinimalAPI/"]
+COPY ["FirstMinimalAPI/FirstMinimalAPI.csproj", "FirstMinimalAPI/"]
 RUN dotnet restore "FirstMinimalAPI/FirstMinimalAPI.csproj"
 WORKDIR "/src/FirstMinimalAPI"
 COPY . .
