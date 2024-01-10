@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: firstapi-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: firstapi
+  template:
+    metadata:
+      labels:
+        app: firstapi
+    spec:
+      containers:
+      - name: firstapi-container
+        image: farahbhr/firstminimalapi:1.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+
