@@ -13,4 +13,11 @@ spec:
   hostPath:
     path: /data/pv
     type: DirectoryOrCreate
-
+#  env:
+    # Obtain the PodName to create the corresponding data directory for the pod on the host. 
+#  - name: POD_NAME
+#    valueFrom:
+#      fieldRef:
+#        fieldPath: metadata.name
+#  - name: POD_DATA_DIR
+#    value: /data/$(POD_NAME)

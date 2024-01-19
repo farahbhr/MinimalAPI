@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: firstapi-deployment
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: firstapi
@@ -21,6 +21,7 @@ spec:
         volumeMounts:
           - name: log
             mountPath: /app/logs  #logs path inside the container
+            subPath: first
       volumes:
       - name: log
         persistentVolumeClaim:
