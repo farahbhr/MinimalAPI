@@ -2,17 +2,21 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Host.UseSerilog((hostcontext, services, configuration) => configuration.ReadFrom.Configuration(hostcontext.Configuration));
+
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+
 var app = builder.Build();
 
-Log.Logger = new LoggerConfiguration()
-    .MinimumLevel.Information()
-    .WriteTo.File("logs/myLog-.txt", rollingInterval: RollingInterval.Day)
-    .CreateLogger();
+//Log.Logger = new LoggerConfiguration()
+//.MinimumLevel.Information()
+//.WriteTo.File("logs/myLog-.txt", rollingInterval: RollingInterval.Day)
+//.CreateLogger();
 
 
 // Configure the HTTP request pipeline.
@@ -32,7 +36,7 @@ var summaries = new[]
 app.MapGet("/weatherforecast", () =>
 {
     var forecast = Enumerable.Range(1, 5).Select(index =>
-        new Weather
+        new WeatherForecast
         (
             DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
             Random.Shared.Next(-20, 55),
@@ -40,17 +44,16 @@ app.MapGet("/weatherforecast", () =>
         ))
         .ToArray();
 
-    Log.Information("Weathers => {@forecast}", forecast);
-
+    Log.Information("WeatherForecasts => {@forecast}", forecast);
 
     return forecast;
 })
-.WithName("GetWeather")
+.WithName("GetWeatherForecast")
 .WithOpenApi();
 
 app.Run();
 
-internal record Weather(DateOnly Date, int TemperatureC, string? Summary)
+internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 }
