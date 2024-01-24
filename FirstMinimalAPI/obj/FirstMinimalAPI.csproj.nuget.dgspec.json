@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\f.rhouma\\Desktop\\Git MinimalAPI\\MinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj": {}
+    "C:\\Users\\f.rhouma\\Desktop\\Correct Git API\\MinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\f.rhouma\\Desktop\\Git MinimalAPI\\MinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj": {
+    "C:\\Users\\f.rhouma\\Desktop\\Correct Git API\\MinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\f.rhouma\\Desktop\\Git MinimalAPI\\MinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj",
+        "projectUniqueName": "C:\\Users\\f.rhouma\\Desktop\\Correct Git API\\MinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj",
         "projectName": "FirstMinimalAPI",
-        "projectPath": "C:\\Users\\f.rhouma\\Desktop\\Git MinimalAPI\\MinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj",
+        "projectPath": "C:\\Users\\f.rhouma\\Desktop\\Correct Git API\\MinimalAPI\\FirstMinimalAPI\\FirstMinimalAPI.csproj",
         "packagesPath": "C:\\Users\\f.rhouma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\f.rhouma\\Desktop\\Git MinimalAPI\\MinimalAPI\\FirstMinimalAPI\\obj\\",
+        "outputPath": "C:\\Users\\f.rhouma\\Desktop\\Correct Git API\\MinimalAPI\\FirstMinimalAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\f.rhouma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,14 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.17.2, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             },
             "Serilog.Sinks.File": {
               "target": "Package",
